@@ -1,4 +1,4 @@
-import './App.css'
+import './css/App.css'
 import MovieCard from './components/MovieCard';
 import Favourites from './pages/Favourites';
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ function App() {
     <main className='main-content'>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<>Welcome To Movies</>}></Route>
+        <Route path='/' element={<h1>Welcome To Movies</h1>}></Route>
         <Route path='/home' element={<Home />}></Route>
         <Route path='/favourites' element={<Favourites/>}></Route>
       </Routes>
